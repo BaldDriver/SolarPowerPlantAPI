@@ -15,5 +15,7 @@ namespace SolarPowerPlantAPI.Authentication
         public DbSet<SolarPowerPlant> SolarPowerPlants { get; set; }
 
         public DbSet<ProductionData> ProductionDatas { get; set; }
+
+        public DbSet<TimeSeriesData> TimeSeriesDatas { get; set; }
     }
 }
